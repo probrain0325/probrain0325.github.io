@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /
-title: "Latest Posts"
+title: "Main"
 image:
   mainimage: wood-texture-1600x800.jpg
 ---
