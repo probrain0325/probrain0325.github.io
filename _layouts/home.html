@@ -30,12 +30,36 @@
   </head>
 
   <body id="js-body">
-    {% include browser-upgrade.html %}
     {% include header.html %}
     {% include navigation-sliding.html %}
 
+    {% if page.image.mainimage %}
+    <div class="page-lead" style="background-image:url({{ site.url }}/images/{{ page.image.mainimage }})">
+      <div class="wrap page-lead-content">
+        <h1>ProBrain</h1>
+        <h2><pre> </pre></h2>
+        <h3>충남대학교 컴퓨터공학과 웹 개발 학술 동아리</h3>
+      </div><!-- /.page-lead-content -->
+    </div><!-- /.page-lead -->
+    {% endif %}
+
     <div id="page-wrapper">
-      {{ content }}
+      {% include browser-upgrade.html %}
+
+      <div id="main" role="main">
+            <div class="wrap">
+              <div class="page-title">
+                <h1> </h1>
+                {% if page.excerpt %}<h2>{{ page.excerpt }}</h2>{% endif %}
+              </div>
+              <div class="archive-wrap">
+                <div class="page-content">
+                  {{ content }}
+                </div><!-- /.page-content -->
+              </div class="archive-wrap"><!-- /.archive-wrap -->
+            </div><!-- /.wrap -->
+          </div><!-- /#main -->
+          
       {% include footer.html %}
     </div>
 

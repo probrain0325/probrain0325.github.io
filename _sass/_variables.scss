@@ -5,8 +5,9 @@
 /*
    Typography variables
    ========================================================================== */
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
 
-$base-font                   	: Georgia,Times,"Times New Roman",serif;
+$base-font                   	: 'Nanum Gothic',"Times New Roman",serif;
 $heading-font                	: "Helvetica Neue","Segoe UI",Arial,sans-serif;
 $caption-font                	: $base-font;
 $code-font                   	: monospace;
