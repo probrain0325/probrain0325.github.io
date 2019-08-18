@@ -30,7 +30,7 @@
   </head>
 
   <body id="js-body">
-    {% include browser-upgrade.html %}
+    <!-- {% include browser-upgrade.html %} -->
     {% include header.html %}
     {% include navigation-sliding.html %}
 
@@ -43,6 +43,7 @@
     {% endif %}
 
     <div id="page-wrapper">
+      {% include browser-upgrade.html %}
       {{ content }}
       {% include footer.html %}
     </div>
