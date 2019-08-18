@@ -6,6 +6,7 @@ categories: {{ dir }}
 excerpt:
 tags: []
 image:
+  mainimage:
   feature:
   teaser:
   thumb:

@@ -5,6 +5,7 @@ date: {{ date }}
 modified:
 excerpt:
 image:
+  mainimage:
   feature:
   teaser:
   thumb:
