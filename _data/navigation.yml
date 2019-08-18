@@ -1,6 +1,21 @@
 # Site navigation links
 
-- title:
-  url:
-  excerpt:
+- title: News
+  url: /categories/news/
+  excerpt: "News Excerpt Test"
+  image:
+
+- title: Gallery
+  url: /categories/gallery/
+  excerpt: "Gallery Excerpt Test"
+  image:
+
+- title: Event
+  url: /categories/event/
+  excerpt: "Evnet Excerpt Test"
+  image:
+
+- title: About
+  url: /categories/about/
+  excerpt: "About Excerpt Test"
   image:
