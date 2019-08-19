@@ -1,6 +1,8 @@
 ---
 layout: archive
 title: "Gallery"
+image:
+  feature: probrain-menu.png
 ---
 
 <div class="tiles">

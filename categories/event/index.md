@@ -1,6 +1,8 @@
 ---
 layout: archive
 title: "Event"
+image:
+  feature: probrain-menu.png
 ---
 
 <div class="tiles">
